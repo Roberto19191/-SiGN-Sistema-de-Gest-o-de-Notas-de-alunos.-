@@ -1,0 +1,30 @@
+cabecalho = '''Olá, professor! Seja bem vindo ao 'SiGN'. O que você deseja fazer hoje?
+Selecione a opção desejada:
+1) - Visualizar alunos da turma;
+2) - Ranking da turma;
+3) - Frequência;
+4) - Aprovados;
+5) - Recuperação;
+6) - Gerar relatório;
+7) - Sair.
+'''
+while True:
+    print(cabecalho)
+    opcao = int(input("Opção: "))
+    if opcao == 1:
+        print("Alunos da turma:")
+    elif opcao == 2:
+        print("Ranking da turma:")
+    elif opcao == 3:
+        print("Frequência:")
+    elif opcao == 4:
+        print("Aprovados:")
+    elif opcao == 5:
+        print("Recuperação:")
+    elif opcao == 6:
+        print("Gerar relatório:")
+    elif opcao == 7:
+        print("")
+        break
+    else:
+        print("Alunos da turma:")
